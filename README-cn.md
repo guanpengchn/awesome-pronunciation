@@ -1,14 +1,12 @@
 ## awesome-pronunciation
 
-- My English is very poor, so this repository exists.
-- There are many computer technology related words here. I almost read every word wrong.
-- Click on the speaker to listen to the pronunciation.
-
-> Above is Google Translate, including this sentence.
+- 我的英语水平很差，这就是为什么建立了这个repo
+- 这里放置了许多和计算机相关的词汇，几乎每个单词我都读错过。
+- 点击喇叭可以听到发音。
 
 ### A
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | access [:speaker:](http://dict.youdao.com/dictvoice?audio=access&type=1) | ['ækses] |
 | admin [:speaker:](http://dict.youdao.com/dictvoice?audio=admin&type=1) | ['ædmɪn] |
@@ -30,14 +28,14 @@
 
 ### B
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | babel [:speaker:](http://dict.youdao.com/dictvoice?audio=babel&type=2) | ['bebl] |
 | bind [:speaker:](http://dict.youdao.com/dictvoice?audio=bind&type=1) | [baɪnd] |
 
 ### C
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | cache [:speaker:](http://dict.youdao.com/dictvoice?audio=cache&type=1) | [kæʃ] |
 | character [:speaker:](http://dict.youdao.com/dictvoice?audio=character&type=1) | ['kærəktə] | [How to pronounce the programmer's abbreviation “char”](https://english.stackexchange.com/questions/60154/how-to-pronounce-the-programmers-abbreviation-char) |
@@ -46,7 +44,7 @@
 
 ### D
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | Daemon [:speaker:](http://dict.youdao.com/dictvoice?audio=Daemon&type=1) | ['diːmən] |
 | Debian [:speaker:](http://dict.youdao.com/dictvoice?audio=Debian&type=1) | ['diːbɪn] |
@@ -58,14 +56,14 @@
 
 ### E
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | eval [:speaker:](http://dict.youdao.com/dictvoice?audio=eval&type=1) | [ɪ'væl] |
 | event [:speaker:](http://dict.youdao.com/dictvoice?audio=event&type=1) | [ɪ'vent] |
 
 ### F
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | facade [:speaker:](http://dict.youdao.com/dictvoice?audio=facade&type=1) | [fə'sɑːd]|
 | fedora [:speaker:](http://dict.youdao.com/dictvoice?audio=fedora&type=1) | [fɪ'dɔːrə]|
@@ -73,7 +71,7 @@
 
 ### G
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | Git [:speaker:](http://dict.youdao.com/dictvoice?audio=git&type=1) | [ɡɪt] |
 | GNU [:speaker:](https://upload.wikimedia.org/wikipedia/commons/2/24/En-gnu.ogg) | [gnu:] | |
@@ -81,7 +79,7 @@
 
 ### H
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | Haskell [:speaker:](http://dict.youdao.com/dictvoice?audio=haskell&type=1) | [ˈhæskəl] |
 | hadoop [:speaker:](http://dict.youdao.com/dictvoice?audio=hadoop&type=1) | [ˈhʌduːp] | [Doug Cutting: The Name of Hadoop](https://www.youtube.com/watch?v=irK7xHUmkUA) |
@@ -91,7 +89,7 @@
 
 ### I
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | image [:speaker:](http://dict.youdao.com/dictvoice?audio=image&type=1) | ['ɪmɪdʒ] | 
 | implement [:speaker:](http://dict.youdao.com/dictvoice?audio=implement&type=1) | ['ɪmplɪm(ə)nt] |
@@ -100,7 +98,7 @@
 
 ### J
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | Java [:speaker:](http://dict.youdao.com/dictvoice?audio=java&type=1) | ['dʒɑːvə] |
 | Jekyll [:speaker:](http://dict.youdao.com/dictvoice?audio=Jekyll&type=1) | ['dʒekil; 'dʒi:kil] |
@@ -108,13 +106,13 @@
 
 ### K
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | kubernetes | [kʊbə'netɪs] / [kʊbə'neɪteɪs] / [kɪve'nɪtɪs]| [What is the correct pronunciation of Kubernetes in English?](https://github.com/kubernetes/kubernetes/issues/44308) |
 
 ### L
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | lambda [:speaker:](http://dict.youdao.com/dictvoice?audio=lambda&type=1) | [ˈlæmdə] |
 | Laravel | [ˈlæəwaʊ] | [Thorough IoC In Laravel 4 With Unit Tests](https://www.youtube.com/watch?v=F1VyHfoUuLU&feature=youtu.be) |
@@ -124,7 +122,7 @@
 
 ### M
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | main [:speaker:](http://dict.youdao.com/dictvoice?audio=main&type=1) | [meɪn] |
 | margin [:speaker:](http://dict.youdao.com/dictvoice?audio=margin&type=1) | ['mɑːdʒɪn] |
@@ -132,24 +130,24 @@
 | maven [:speaker:](http://dict.youdao.com/dictvoice?audio=maven&type=1) | ['meɪvn] |
 | Microsoft [:speaker:](http://dict.youdao.com/dictvoice?audio=Microsoft&type=1) | ['maikrəusɔft] |
 | module [:speaker:](http://dict.youdao.com/dictvoice?audio=module&type=1) | ['mɒdjuːl] |
+| NVIDIA [:speaker:](http://dict.youdao.com/dictvoice?audio=NVIDIA&type=1) | [ɛn'vɪdɪr] |
 
 ### N
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | nginx | Engine X |
 | null [:speaker:](http://dict.youdao.com/dictvoice?audio=null&type=1) | [nʌl] |
-| NVIDIA [:speaker:](http://dict.youdao.com/dictvoice?audio=NVIDIA&type=1) | [ɛn'vɪdɪr] |
 
 ### O
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | OS X | OS ten |
 
 ### P
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | phantom [:speaker:](http://dict.youdao.com/dictvoice?audio=phantom&type=2) | ['fæntəm] | 
 | parameter [:speaker:](http://dict.youdao.com/dictvoice?audio=parameter&type=1) | [pə'ræmɪtə] |
@@ -158,13 +156,13 @@
 
 ### Q
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | Qt [:speaker:](http://dict.youdao.com/dictvoice?audio=cute&type=1) | [kjuːt] | |
 
 ### R
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | Realm [:speaker:](http://dict.youdao.com/dictvoice?audio=realm&type=1) | [relm] |
 | resolved [:speaker:](http://dict.youdao.com/dictvoice?audio=resolved&type=1) | [rɪ'zɒlvd] |
@@ -173,11 +171,11 @@
 
 ### S
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | san jose [:speaker:](http://dict.youdao.com/dictvoice?audio=san%20jose&type=1) | [sænhəu'zei] |
 | Safari [:speaker:](http://dict.youdao.com/dictvoice?audio=Safari&type=1) | [sə'fɑrɪ] | 
-| scala [:speaker:](http://dict.youdao.com/dictvoice?audio=scala&type=1) | [ˈskɑːlə] | 
+| scala [:speaker:](http://dict.youdao.com/dictvoice?audio=scala&type=1) | [ˈskɑːlə] |
 | scheme [:speaker:](http://dict.youdao.com/dictvoice?audio=scheme&type=1) | [skiːm] |
 | SQL [:speaker:](http://dict.youdao.com/dictvoice?audio=sequel&type=1) / [:speaker:](http://dict.youdao.com/dictvoice?audio=SQL&type=1) | [ˈsiːkwəl]/[ˈesˈkjuːˈel] | [Pronouncing SQL: S-Q-L or Sequel?](http://patorjk.com/blog/2012/01/26/pronouncing-sql-s-q-l-or-sequel/) |
 | sudo | ['suːduː] |
@@ -185,39 +183,39 @@
 
 ### T
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | turbo [:speaker:](http://dict.youdao.com/turbo?audio=typical&type=2) | ['tɝbo] |
 | typical [:speaker:](http://dict.youdao.com/dictvoice?audio=typical&type=1) | ['tɪpɪkl] |
 
 ### U
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | Ubuntu [:speaker:](http://dict.youdao.com/dictvoice?audio=ubuntu&type=1) | [ʊ'bʊntʊ] | 
 
 ### V
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | variable [:speaker:](http://dict.youdao.com/dictvoice?audio=variable&type=1) | ['veəriəbl] |
 | vue [:speaker:](http://dict.youdao.com/dictvoice?audio=vue&type=1) | [v'ju:] |
 
 ### W
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | width [:speaker:](http://dict.youdao.com/dictvoice?audio=width&type=1) | [wɪdθ] | 
 
 ### Y
 
-| Word  | Pronunciation | Reference |
+| 单词  | 发音 | 参考资料 |
 | :-- | :-- | :-- |
 | YouTube [:speaker:](http://dict.youdao.com/dictvoice?audio=youtube&type=1) | ['juː'tjuːb] |
 | YAML [:speaker:](http://dict.youdao.com/dictvoice?audio=YAML&type=1) | [ˈjæməl] |
 
 
-## Other Reference
+## 其他参考资料
 
 - [chinese-programmer-wrong-pronunciation](https://github.com/shimohq/chinese-programmer-wrong-pronunciation)
 - http://dict.youdao.com
