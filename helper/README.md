@@ -1,13 +1,29 @@
-## 如何生成目录README.md
+## How to use it?
 
-data.json中添加新单词
+Add new words in `db.json`
 
-执行指令
+Execute code as below:
 
 ```
-cd .helper
-// 下载音频文件
-node generate.js -d
-// 生成文档文件
-node generate.js -w
+// install
+npm install
+
+// local development docs
+npm run dev
+
+// local build docs
+npm run build
+
+// github page deploy
+npm run deploy
+
+// download all audio files or one letter audio files
+node helper/download.js all
+node helper/download.js A
+
+// write docs files or one letter files
+node helper/write.js
+
+// audio files upload to AliOSS, but now this file doesn't exist here because of SECURITY. 
+node helper/upload.js
 ```

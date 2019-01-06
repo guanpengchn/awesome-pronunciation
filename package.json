@@ -8,7 +8,8 @@
   },
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "deploy": "./deploy.sh"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "homepage": "https://github.com/guanpengchn/awesome-pronunciation#readme",
   "devDependencies": {
     "vuepress": "^0.14.8"
+  },
+  "dependencies": {
+    "ali-oss": "^6.0.2"
   }
 }

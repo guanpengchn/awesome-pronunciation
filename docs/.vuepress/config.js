@@ -1,6 +1,7 @@
 const mapArr = [
   '',
-  'A.md'
+  'A.md',
+  'B.md'
 ]
 
 module.exports = {
