@@ -1,0 +1,28 @@
+{
+  "A": [{
+    "word": "access",
+    "origin": "youdao",
+    "type": "1",
+    "pron": "['ækses]",
+    "reference": ""
+  }],
+  "B": [{
+    "word": "babel",
+    "origin": "youdao",
+    "type": "2",
+    "pron": "['bebl]",
+    "reference": ""
+  }, {
+    "word": "bind",
+    "origin": "youdao",
+    "type": "1",
+    "pron": "[baɪnd]",
+    "reference": ""
+  }, {
+    "word": "bug",
+    "origin": "youdao",
+    "type": "1",
+    "pron": "[bʌg]",
+    "reference": ""
+  }]
+}
