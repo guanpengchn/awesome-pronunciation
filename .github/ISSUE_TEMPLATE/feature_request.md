@@ -1,20 +1,16 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
-title: ''
+about: Suggest a word for this project
+title: Add a word
 labels: ''
-assignees: ''
+assignees: guanpengchn
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**Which word? (required)**
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**Audio link? (optional)**
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**Phonetic symbol? (optional)**
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**Reference? (optional)**
