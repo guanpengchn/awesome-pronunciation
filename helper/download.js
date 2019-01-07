@@ -1,9 +1,11 @@
 const fs = require('fs')
 const http = require('http')
+const https = require('https')
 
 const DB_NAME = './helper/db.json'
-const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-const YOUDAO = 'youdao'
+const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ_'
+const HTTP = 'http://'
+const HTTPS = 'https://'
 
 /**
  * download audios
@@ -28,13 +30,25 @@ function download(letter = 'all') {
  */
 function downloadLetter(wordList) {
   for(const j of wordList) {
-    const filepath = `./audio/${j.word}.mp3`
-    if(!isFileExist(filepath)) {
-      if(j.origin === YOUDAO) {
-        const file = fs.createWriteStream(`./audio/${j.word}.mp3`)
-        http.get(`http://dict.youdao.com/dictvoice?audio=${j.word}&type=${j.type}`, function(response) {
-          response.pipe(file);
-        })
+    for(const index in j.origin) {
+      let filepath = ''
+      if(j.origin.length === 1) {
+        filepath = `./docs/.vuepress/public/audio/${j.word.replace('.','_')}.mp3`
+      } else {
+        filepath = `./docs/.vuepress/public/audio/${j.word.replace('.','_')}_${index}.mp3`
+      }
+      
+      if(!isFileExist(filepath)) {
+        const file = fs.createWriteStream(filepath)
+        if(j.origin[index].includes(HTTP)) {
+          http.get(j.origin[index], function(response) {
+            response.pipe(file);
+          })
+        } else if(j.origin[index].includes(HTTPS)){
+          https.get(j.origin[index], function(response) {
+            response.pipe(file);
+          })
+        }
       }
     }
   }
@@ -54,4 +68,8 @@ function isFileExist(path) {
 }
 
 const options = process.argv
-download(options[2])
+if(options.length >= 3) {
+  download(options[2])
+} else {
+  download()
+}

@@ -1,28 +1,678 @@
 {
   "A": [{
     "word": "access",
-    "origin": "youdao",
-    "type": "1",
-    "pron": "['ækses]",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=access&type=1"],
+    "symbol": ["['ækses]"],
+    "reference": ""
+  }, {
+    "word": "admin",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=admin&type=1"],
+    "symbol": ["['ædmɪn]"],
+    "reference": ""
+  }, {
+    "word": "adobe",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=adobe&type=1"],
+    "symbol": ["[ə'dəʊbɪ; ə'dəʊb]"],
+    "reference": ""
+  }, {
+    "word": "agile",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=agile&type=1"],
+    "symbol": ["['ædʒaɪl]"],
+    "reference": ""
+  }, {
+    "word": "amazon",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=amazon&type=1"],
+    "symbol": ["['æməzən]"],
+    "reference": ""
+  }, {
+    "word": "Angular",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Angular&type=1"],
+    "symbol": ["['æŋgjʊlə]"],
+    "reference": ""
+  }, {
+    "word": "AJAX",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=AJAX&type=2"],
+    "symbol": ["['eidʒæks]"],
+    "reference": ""
+  }, {
+    "word": "alias",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=alias&type=2"],
+    "symbol": ["[ˈeɪliəs]"],
+    "reference": ""
+  }, {
+    "word": "android",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=android&type=2"],
+    "symbol": ["['ændrɔid]"],
+    "reference": ""
+  }, {
+    "word": "Apache",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Apache&type=1"],
+    "symbol": ["[ə'pætʃɪ]"],
+    "reference": ""
+  }, {
+    "word": "app",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=app&type=1"],
+    "symbol": ["[æp]"],
+    "reference": ""
+  }, {
+    "word": "archive",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=archive&type=1"],
+    "symbol": ["['ɑːkaɪv]"],
+    "reference": ""
+  }, {
+    "word": "array",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=array&type=1"],
+    "symbol": ["[ə'rei]"],
+    "reference": ""
+  }, {
+    "word": "ASCII",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=ASCII&type=1"],
+    "symbol": ["['æski]"],
+    "reference": ""
+  }, {
+    "word": "aspect",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=aspect&type=1"],
+    "symbol": ["['æspekt]"],
+    "reference": ""
+  }, {
+    "word": "avatar",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=avatar&type=1"],
+    "symbol": ["['ævətɑː]"],
+    "reference": ""
+  }, {
+    "word": "Axure",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Axure&type=1"],
+    "symbol": ["[`æk∫ur]"],
+    "reference": ""
+  }, {
+    "word": "Azure",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Azure&type=1"],
+    "symbol": ["['æʒə]"],
     "reference": ""
   }],
+
+
   "B": [{
     "word": "babel",
-    "origin": "youdao",
-    "type": "2",
-    "pron": "['bebl]",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=babel&type=2"],
+    "symbol": ["['bebl]"],
     "reference": ""
   }, {
     "word": "bind",
-    "origin": "youdao",
-    "type": "1",
-    "pron": "[baɪnd]",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=bind&type=1"],
+    "symbol": ["[baɪnd]"],
     "reference": ""
   }, {
     "word": "bug",
-    "origin": "youdao",
-    "type": "1",
-    "pron": "[bʌg]",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=bug&type=1"],
+    "symbol": ["[bʌg]"],
+    "reference": ""
+  }],
+
+
+  "C": [{
+    "word": "C#",
+    "origin": ["http://www.howtopronounce.cc/file/20591cdac0664b828018e09f47611bea.mp3"],
+    "symbol": ["C sharp"],
+    "reference": ""
+  }, {
+    "word": "cache",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=cache&type=1"],
+    "symbol": ["[kæʃ]"],
+    "reference": ""
+  }, {
+    "word": "character",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=character&type=1"],
+    "symbol": ["['kærəktə]"],
+    "reference": "[How to pronounce the programmer's abbreviation “char”](https://english.stackexchange.com/questions/60154/how-to-pronounce-the-programmers-abbreviation-char)"
+  }, {
+    "word": "char",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=char&type=1"],
+    "symbol": ["[tʃɑː]"],
+    "reference": "[How to pronounce the programmer's abbreviation “char”](https://english.stackexchange.com/questions/60154/how-to-pronounce-the-programmers-abbreviation-char)"
+  }, {
+    "word": "console",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=console&type=2"],
+    "symbol": ["[kən'səʊl]"],
+    "reference": ""
+  }, {
+    "word": "cURL",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=cURL&type=2"],
+    "symbol": ["[kɜːl]"],
+    "reference": "[How do you pronounce “cURL,” the computer utility?](https://english.stackexchange.com/questions/48735/how-do-you-pronounce-curl-the-computer-utility?rq=1)"
+  }, {
+    "word": "ctrl",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=ctrl&type=1"],
+    "symbol": ["[kən'trəʊl]"],
+    "reference": ""
+  }],
+
+
+  "D": [{
+    "word": "Daemon",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Daemon&type=1"],
+    "symbol": ["['diːmən]"],
+    "reference": ""
+  }, {
+    "word": "Debian",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Debian&type=1"],
+    "symbol": ["['diːbɪn]"],
+    "reference": ""
+  }, {
+    "word": "deny",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=deny&type=1"],
+    "symbol": ["[dɪ'naɪ]"],
+    "reference": ""
+  }, {
+    "word": "deque",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=deque&type=1"],
+    "symbol": ["['dek]"],
+    "reference": ""
+  }, {
+    "word": "digest",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=digest&type=1"],
+    "symbol": ["[dɑɪ'dʒɛst]"],
+    "reference": ""
+  }, {
+    "word": "Django",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Django&type=1"],
+    "symbol": ["[ˈdʒæŋɡoʊ]"],
+    "reference": ""
+  }, {
+    "word": "doc",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=doc&type=1"],
+    "symbol": ["[dɒk]"],
+    "reference": ""
+  }, {
+    "word": "Dubbo",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Dubbo&type=1"],
+    "symbol": ["['dʌbəu]"],
+    "reference": ""
+  }],
+
+  "E": [{
+    "word": "eureka",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=eureka&type=1"],
+    "symbol": ["[,jʊ(ə)'riːkə]"],
+    "reference": ""
+  }, {
+    "word": "eval",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=eval&type=1"],
+    "symbol": ["[ɪ'væl]"],
+    "reference": ""
+  }, {
+    "word": "event",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=event&type=1"],
+    "symbol": ["[ɪ'vent]"],
+    "reference": ""
+  }],
+
+
+  "F": [{
+    "word": "facade",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=facade&type=1"],
+    "symbol": ["[fə'sɑːd]"],
+    "reference": ""
+  }, {
+    "word": "fedora",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=fedora&type=1"],
+    "symbol": ["[fɪ'dɔːrə]"],
+    "reference": ""
+  }, {
+    "word": "Feign",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Feign&type=1"],
+    "symbol": ["[feɪn]"],
+    "reference": ""
+  }, {
+    "word": "FIFO",
+    "origin": ["https://s3.amazonaws.com/audio.oxforddictionaries.com/en/mp3/fifo_1_gb_1_abbr.mp3"],
+    "symbol": ["['faifəu]"],
+    "reference": "[How is the acronym FIFO pronounced?](https://www.quora.com/How-is-the-acronym-FIFO-pronounced)"
+  }, {
+    "word": "format",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=format&type=1"],
+    "symbol": ["['fɔːmæt]"],
+    "reference": ""
+  }],
+
+
+  "G": [{
+    "word": "Git",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Git&type=1"],
+    "symbol": ["[ɡɪt]"],
+    "reference": ""
+  }, {
+    "word": "GNU",
+    "origin": ["http://www.howtopronounce.cc/file/118cec210b284899988aa018fb673211.mp3"],
+    "symbol": ["[gnu:]"],
+    "reference": "[wikipedia GNU](https://en.wikipedia.org/wiki/GNU)"
+  }, {
+    "word": "GUI",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=GUI&type=1"],
+    "symbol": ["[ˈɡui]"],
+    "reference": ""
+  }],
+
+
+  "H": [{
+    "word": "Haskell",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Haskell&type=1"],
+    "symbol": ["[ˈhæskəl]"],
+    "reference": ""
+  }, {
+    "word": "Hadoop",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Hadoop&type=1"],
+    "symbol": ["[ˈhʌduːp]"],
+    "reference": "[Doug Cutting: The Name of Hadoop](https://www.youtube.com/watch?v=irK7xHUmkUA)"
+  }, {
+    "word": "height",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=height&type=1"],
+    "symbol": ["[haɪt]"],
+    "reference": ""
+  }, {
+    "word": "hidden",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=hidden&type=1"],
+    "symbol": ["['hɪdn]"],
+    "reference": ""
+  }, {
+    "word": "href",
+    "origin": ["http://www.howtopronounce.cc/file/c25e57362eeb49b6b73326ced051f152.mp3"],
+    "symbol": ["H ref [eit∫ref]"],
+    "reference": ""
+  }, {
+    "word": "Hystrix",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Hystrix&type=1"],
+    "symbol": ["[hɪst'rɪks]"],
+    "reference": ""
+  }],
+
+
+  "I": [{
+    "word": "icon",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=icon&type=1"],
+    "symbol": ["['aɪkɑn]"],
+    "reference": ""
+  }, {
+    "word": "image",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=image&type=1"],
+    "symbol": ["['ɪmɪdʒ]"],
+    "reference": ""
+  }, {
+    "word": "implement",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=implement&type=1"],
+    "symbol": ["['ɪmplɪm(ə)nt]"],
+    "reference": ""
+  }, {
+    "word": "integer",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=integer&type=1"],
+    "symbol": ["['ɪntɪdʒə]"],
+    "reference": ""
+  }, {
+    "word": "iPhone",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=iPhone&type=1"],
+    "symbol": ["['aɪfon]"],
+    "reference": ""
+  }, {
+    "word": "issue",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=issue&type=1"],
+    "symbol": ["['ɪʃuː]"],
+    "reference": ""
+  }],
+
+
+  "J": [{
+    "word": "Java",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Java&type=1"],
+    "symbol": ["['dʒɑːvə]"],
+    "reference": ""
+  }, {
+    "word": "Jekyll",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Jekyll&type=1"],
+    "symbol": ["['dʒekil; 'dʒi:kil]"],
+    "reference": ""
+  }, {
+    "word": "Jersey",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Jersey&type=1"],
+    "symbol": ["['dʒɜːzɪ]"],
+    "reference": ""
+  }, {
+    "word": "jpg(jpeg)",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=jpeg&type=1"],
+    "symbol": ["['dʒeɪpeɡ]"],
+    "reference": ""
+  }],
+
+
+  "K": [{
+    "word": "Kotlin",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Kotlin&type=1"],
+    "symbol": ["['kɒtlin]"],
+    "reference": ""
+  }, {
+    "word": "kubernetes",
+    "origin": [
+      "http://www.howtopronounce.cc/file/0d393aa4aebc4db99017ca57805c5b1f.mp3",
+      "https://content.swncdn.com/biblestudytools/audio/lexicons/greek-mp3/2942g.mp3"
+    ],
+    "symbol": [
+      "[kʊbə'netɪs]",
+      "[kʊbə'neɪteɪs]"
+    ],
+    "reference": "[What is the correct pronunciation of Kubernetes in English?](https://github.com/kubernetes/kubernetes/issues/44308)"
+  }],
+
+
+  "L": [{
+    "word": "lambda",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=lambda&type=1"],
+    "symbol": ["['læmdə]"],
+    "reference": ""
+  }, {
+    "word": "Laravel",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Laravel&type=1"],
+    "symbol": ["[ˈlæəwaʊ]"],
+    "reference": "[Thorough IoC In Laravel 4 With Unit Tests](https://www.youtube.com/watch?v=F1VyHfoUuLU&feature=youtu.be)"
+  }, {
+    "word": "LaTeX",
+    "origin": [
+      "http://www.howtopronounce.cc/file/62b22d08d3f345da817a3590343ebeb8.mp3",
+      "http://www.howtopronounce.cc/file/698012d7d394493a84a95e459b601000.mp3"
+    ],
+    "symbol": [
+      "[ˈlɑːtɛk]",
+      "[ˈleɪtɛk]"
+    ],
+    "reference": "[What is the correct pronunciation of TeX and LaTeX?](https://tex.stackexchange.com/questions/17502/what-is-the-correct-pronunciation-of-tex-and-latex)"
+  }, {
+    "word": "linear",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=linear&type=1"],
+    "symbol": ["['lɪnɪə]"],
+    "reference": ""
+  }, {
+    "word": "Linux",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Linux&type=2"],
+    "symbol": ["['lɪnəks]"],
+    "reference": ""
+  }, {
+    "word": "locale",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=locale&type=2"],
+    "symbol": ["[ləʊ'kɑːl]"],
+    "reference": ""
+  }],
+
+
+  "M": [{
+    "word": "main",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=main&type=1"],
+    "symbol": ["[meɪn]"],
+    "reference": ""
+  }, {
+    "word": "margin",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=margin&type=1"],
+    "symbol": ["['mɑːdʒɪn]"],
+    "reference": ""
+  }, {
+    "word": "matrix",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=matrix&type=1"],
+    "symbol": ["[ˈmeɪtrɪks]"],
+    "reference": ""
+  }, {
+    "word": "maven",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=maven&type=1"],
+    "symbol": ["['meɪvn]"],
+    "reference": ""
+  }, {
+    "word": "Microsoft",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Microsoft&type=1"],
+    "symbol": ["['maikrəusɔft]"],
+    "reference": ""
+  }, {
+    "word": "module",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=module&type=1"],
+    "symbol": ["['mɒdjuːl]"],
+    "reference": ""
+  }],
+
+
+  "N": [{
+    "word": "nginx",
+    "origin": ["http://www.howtopronounce.cc/file/10019684d4174608899e8466063c23af.mp3"],
+    "symbol": ["Engine-X ['endʒɪn eks]"],
+    "reference": "[How do you pronounce “NGINX”?](https://www.nginx.com/resources/wiki/community/faq/)"
+  }, {
+    "word": "Netflix",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Netflix&type=1"],
+    "symbol": ["[ˈnetfliːks]"],
+    "reference": ""
+  }, {
+    "word": "null",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=null&type=1"],
+    "symbol": ["[nʌl]"],
+    "reference": ""
+  }, {
+    "word": "NVIDIA",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=NVIDIA&type=1"],
+    "symbol": ["[ɛn'vɪdɪr]"],
+    "reference": ""
+  }],
+
+
+  "O": [{
+    "word": "OS X",
+    "origin": [""],
+    "symbol": ["OS ten ['o 'ɛs ten]"],
+    "reference": "[What's the proper way to pronounce “Mac OS X”?](https://apple.stackexchange.com/questions/2549/whats-the-proper-way-to-pronounce-mac-os-x)"
+  }, {
+    "word": "origin",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=origin&type=1"],
+    "symbol": ["[ˈɔridʒin]"],
+    "reference": ""
+  }],
+
+
+  "P": [{
+    "word": "P2P",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=P2P&type=1"],
+    "symbol": ["[pi: tuː pi:]"],
+    "reference": ""
+  }, {
+    "word": "phantom",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=phantom&type=2"],
+    "symbol": ["['fæntəm]"],
+    "reference": ""
+  }, {
+    "word": "parameter",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=parameter&type=1"],
+    "symbol": ["[pə'ræmɪtə]"],
+    "reference": ""
+  }, {
+    "word": "putty",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=putty&type=1"],
+    "symbol": ["[ˈpʌti]"],
+    "reference": ""
+  }, {
+    "word": "query",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=query&type=1"],
+    "symbol": ["['kwɪəri]"],
+    "reference": ""
+  }, {
+    "word": "python",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=python&type=1"],
+    "symbol": ["['paɪθɑn]"],
+    "reference": ""
+  }],
+
+
+  "Q": [{
+    "word": "Qt",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=cute&type=1"],
+    "symbol": ["[kjuːt]"],
+    "reference": ""
+  }],
+
+
+  "R": [{
+    "word": "Realm",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Realm&type=1"],
+    "symbol": ["[relm]"],
+    "reference": ""
+  }, {
+    "word": "replicas",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=replicas&type=1"],
+    "symbol": ["[ˈrɛplɪkə]"],
+    "reference": ""
+  }, {
+    "word": "resolved",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=resolved&type=1"],
+    "symbol": ["[rɪ'zɒlvd]"],
+    "reference": ""
+  }, {
+    "word": "resort",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=resort&type=1"],
+    "symbol": ["[rɪˈzɔ:t]"],
+    "reference": ""
+  }, {
+    "word": "retina",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=retina&type=1"],
+    "symbol": ["['retɪnə"],
+    "reference": ""
+  }, {
+    "word": "Ribbon",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Ribbon&type=1"],
+    "symbol": ["['rɪbən]"],
+    "reference": ""
+  }],
+
+
+  "S": [{
+    "word": "san jose",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=san%20jose&type=1"],
+    "symbol": ["[sænhəu'zei]"],
+    "reference": ""
+  }, {
+    "word": "Safari",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Safari&type=1"],
+    "symbol": ["[sə'fɑrɪ]"],
+    "reference": ""
+  }, {
+    "word": "scala",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=scala&type=1"],
+    "symbol": ["[ˈskɑːlə]"],
+    "reference": ""
+  }, {
+    "word": "scheme",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=scheme&type=1"],
+    "symbol": ["[skiːm]"],
+    "reference": ""
+  }, {
+    "word": "SHA",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=SHA&type=1"],
+    "symbol": ["[,ɛs etʃ 'e]"],
+    "reference": ""
+  }, {
+    "word": "SQL",
+    "origin": [
+      "http://www.howtopronounce.cc/file/4f8072b1338749679271935264ad2780.mp3",
+      "http://www.howtopronounce.cc/file/91168acb5ab844d9bd538d37e049681c.mp3"
+    ],
+    "symbol": [
+      "[ˈsiːkwəl]",
+      "[ˈes ˈkjuː ˈel]"
+    ],
+    "reference": "[Pronouncing SQL: S-Q-L or Sequel?](http://patorjk.com/blog/2012/01/26/pronouncing-sql-s-q-l-or-sequel/)"
+  }, {
+    "word": "sudo",
+    "origin": [
+      "http://www.howtopronounce.cc/file/31f14f27d1604de0803a7ea7dd6a1fae.mp3",
+      "http://www.howtopronounce.cc/file/5257ff2b2c384a318d774fd4623c82e6.mp3"
+    ],
+    "symbol": [
+      "[ˈsuːduː]",
+      "[ˈsuːdoʊ]"
+    ],
+    "reference": "[sudo from wikipedia](https://en.wikipedia.org/wiki/Sudo)"
+  }, {
+    "word": "suite",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=suite&type=1"],
+    "symbol": ["[swiːt]"],
+    "reference": ""
+  }],
+
+
+  "T": [{
+    "word": "turbo",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=turbo&type=2"],
+    "symbol": ["['tɝbo]"],
+    "reference": ""
+  }, {
+    "word": "typical",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=typical&type=1"],
+    "symbol": ["['tɪpɪkl]"],
+    "reference": ""
+  }],
+
+
+  "U": [{
+    "word": "Ubuntu",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Ubuntu&type=1"],
+    "symbol": ["[ʊ'bʊntʊ]"],
+    "reference": ""
+  }],
+
+
+  "V": [{
+    "word": "variable",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=variable&type=1"],
+    "symbol": ["['veəriəbl]"],
+    "reference": ""
+  }, {
+    "word": "vue",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=vue&type=1"],
+    "symbol": ["[v'ju:]"],
+    "reference": ""
+  }],
+
+
+  "W": [{
+    "word": "width",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=width&type=1"],
+    "symbol": ["[wɪdθ]"],
+    "reference": ""
+  }, {
+    "word": "wifi",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=wifi&type=1"],
+    "symbol": ["['waɪ faɪ]"],
+    "reference": ""
+  }],
+
+
+  "X": [],
+
+
+  "Y": [{
+    "word": "YouTube",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=YouTube&type=1"],
+    "symbol": ["['juː'tjuːb]"],
+    "reference": ""
+  }, {
+    "word": "YAML",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=YAML&type=1"],
+    "symbol": ["[ˈjæməl]"],
+    "reference": ""
+  }],
+
+
+  "Z": [{
+    "word": "Zuul",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Zuul&type=1"],
+    "symbol": ["['zaʊl]"],
+    "reference": ""
+  }],
+
+  "_": [{
+    "word": ".net",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=dot%20net&type=1"],
+    "symbol": ["dot net [dɒtnet]"],
     "reference": ""
   }]
 }

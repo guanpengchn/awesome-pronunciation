@@ -1,6 +1,6 @@
 ---
 home: true
-# heroImage: /hero.png
+heroImage: /home.png
 heroText: Awesome Pronunciation
 tagline: How to say it?
 actionText: Get Started →

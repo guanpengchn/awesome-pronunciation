@@ -1,12 +1,37 @@
 const mapArr = [
   '',
   'A.md',
-  'B.md'
+  'B.md',
+  'C.md',
+  'D.md',
+  'E.md',
+  'F.md',
+  'G.md',
+  'H.md',
+  'I.md',
+  'J.md',
+  'K.md',
+  'L.md',
+  'M.md',
+  'N.md',
+  'O.md',
+  'P.md',
+  'Q.md',
+  'R.md',
+  'S.md',
+  'T.md',
+  'U.md',
+  'V.md',
+  'W.md',
+  'X.md',
+  'Y.md',
+  'Z.md',
+  '_.md'
 ]
 
 module.exports = {
   title: 'awesome-pronunciation',
-  description: 'Just playing around',
+  description: 'how to pronunciation',
   base: '/awesome-pronunciation/',
   locales: {
     '/': {

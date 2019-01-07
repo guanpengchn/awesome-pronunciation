@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 const DB_NAME = './helper/db.json'
-const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ_'
 const EN = 'en'
 const ZH = 'zh'
 
@@ -17,7 +17,7 @@ function getHead(letter, lang) {
 `
 # ${letter}
 
-| Word  | Pronunciation | Reference |
+| Word  | Pronunciation | Symbol |
 | :-- | :-- | :-- |
 `
   } else if(lang === ZH) {
@@ -25,38 +25,83 @@ function getHead(letter, lang) {
 `
 # ${letter}
 
-| 单词  | 发音 | 参考资料 |
+| 单词  | 发音 | 音标 |
 | :-- | :-- | :-- |
 `
   }
   return head
 }
 
-function getRow(word) {
-  const filepath = `./audio/${word.word}.mp3`
-  let content = ''
-  if(isFileExist(filepath)) {
-    content =
-  `| ${word.word} [:speaker:](http://pronunciation.oss-cn-beijing.aliyuncs.com/${word.word}.mp3) | ${word.pron} | ${word.reference} |\n`
-  } else {
-    content =
-  `| ${word.word} | ${word.pron} | ${word.reference} | `
+function getFooter() {
+  const footer =
+`
+<style lang="css">
+audio {
+  height: 30px;
+}
+
+@media screen and (max-width: 720px){
+  audio { 
+    width: 20px; 
+  } 
+}
+</style>
+`
+  return footer
+
+}
+
+function getReference(wordList, lang) {
+  let reference = ''
+  if(lang === EN) {
+    reference = 
+`
+## Reference
+
+`
+  } else if(lang === ZH) {
+    reference = 
+`
+## 参考资料
+
+`
   }
+  let flag = false
+  for(const item of wordList) {
+    if(item.reference !== '') {
+      reference += `- ${item.reference}\n`
+      flag = true
+    }
+  }
+  return flag ? reference : ''
+}
+
+function getRow(word) {
+  let pron = ''
+  let symbol = ''
+  let url = ''
+  for(const index in word.symbol) {
+    if(index === '0') {
+      console.log(word.symbol.length)
+      if(word.symbol.length === 1) {
+        url = '/audio/' + encodeURIComponent(`${word.word.replace('.','_')}.mp3`)
+      } else {
+        url = '/audio/' + encodeURIComponent(`${word.word.replace('.','_')}_${index}.mp3`)
+      }
+      pron = `<audio :src="$withBase('${url}')" controls="controls"></audio>`
+      symbol = `${word.symbol[index]}`
+    } else {
+      url = '/audio/' + encodeURIComponent(`${word.word.replace('.','_')}_${index}.mp3`)
+      pron += `<br/><audio :src="$withBase('${url}')" controls="controls"></audio>`
+      symbol += `<br/>${word.symbol[index]}`
+    }
+  }
+  
+  const content =
+`| ${word.word} | ${pron} | ${symbol} |\n`
   return content
 }
 
-/**
- * whether the file exists
- * @param {String} path 
- */
-function isFileExist(path) {
-  try{
-    fs.accessSync(path, fs.F_OK);
-  }catch(e){
-    return false;
-  }
-  return true;
-}
 
 // 保存文件
 function saveFile(filename, content) {
@@ -88,6 +133,8 @@ function writeLetter(letter, wordList, path, lang) {
   for(const j of wordList) {
     content += getRow(j)
   }
+  content += getReference(wordList, lang)
+  content += getFooter()
   saveFile(path, content)
 }
 
