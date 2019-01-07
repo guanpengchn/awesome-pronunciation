@@ -11,7 +11,3 @@ details: Words which are more controversial in pronunciation will give the autho
 ## Questionnaire
 
 If you want to quickly understand your pronunciation, you can help fill out a test questionnaire and give back to the community.
-
-<audio>
-  <source src="https://raw.githubusercontent.com/guanpengchn/awesome-pronunciation/master/audio/babel.mp3" type="audio/mpeg">
-</audio>

@@ -9,17 +9,11 @@ const HTTPS = 'https://'
 
 /**
  * download audios
- * @param {string} letter all or a letter
  */
-function download(letter = 'all') {
+function download() {
   const data = JSON.parse(fs.readFileSync(DB_NAME))
-  if(letter === 'all') {
-    for(const i of ALPHABET) {
-      const wordList = data[i]
-      downloadLetter(wordList)
-    }
-  } else {
-    const wordList = data[letter]
+  for(const i of ALPHABET) {
+    const wordList = data[i]
     downloadLetter(wordList)
   }
 }
@@ -68,8 +62,4 @@ function isFileExist(path) {
 }
 
 const options = process.argv
-if(options.length >= 3) {
-  download(options[2])
-} else {
-  download()
-}
+download()

@@ -1,5 +1,6 @@
 const mapArr = [
   '',
+  '_.md',
   'A.md',
   'B.md',
   'C.md',
@@ -25,8 +26,7 @@ const mapArr = [
   'W.md',
   'X.md',
   'Y.md',
-  'Z.md',
-  '_.md'
+  'Z.md'
 ]
 
 module.exports = {
@@ -52,6 +52,7 @@ module.exports = {
       '/': {
         lang: 'English',
         selectText: 'Languages',
+        editLinkText: 'Edit this page on GitHub',
         title: 'awesome-pronunciation',
         description: 'English introduction for awesome-pronunciation',
         nav: [
@@ -70,6 +71,7 @@ module.exports = {
       '/zh/': {
         lang: '简体中文',
         selectText: '选择语言',
+        editLinkText: '在 GitHub 上编辑此页',
         title: 'awesome-pronunciation',
         description: 'awesome-pronunciation的中文介绍',
         nav: [

@@ -32,25 +32,6 @@ function getHead(letter, lang) {
   return head
 }
 
-function getFooter() {
-  const footer =
-`
-<style lang="css">
-audio {
-  height: 30px;
-}
-
-@media screen and (max-width: 720px){
-  audio { 
-    width: 20px; 
-  } 
-}
-</style>
-`
-  return footer
-
-}
-
 function getReference(wordList, lang) {
   let reference = ''
   if(lang === EN) {
@@ -88,11 +69,11 @@ function getRow(word) {
       } else {
         url = '/audio/' + encodeURIComponent(`${word.word.replace('.','_')}_${index}.mp3`)
       }
-      pron = `<audio :src="$withBase('${url}')" controls="controls"></audio>`
+      pron = `<audio :src="$withBase('${url}')" controls="controls" controlslist="nodownload"></audio>`
       symbol = `${word.symbol[index]}`
     } else {
       url = '/audio/' + encodeURIComponent(`${word.word.replace('.','_')}_${index}.mp3`)
-      pron += `<br/><audio :src="$withBase('${url}')" controls="controls"></audio>`
+      pron += `<br/><audio :src="$withBase('${url}')" controls="controls" controlslist="nodownload"></audio>`
       symbol += `<br/>${word.symbol[index]}`
     }
   }
@@ -134,7 +115,6 @@ function writeLetter(letter, wordList, path, lang) {
     content += getRow(j)
   }
   content += getReference(wordList, lang)
-  content += getFooter()
   saveFile(path, content)
 }
 

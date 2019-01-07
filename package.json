@@ -9,7 +9,9 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "deploy": "./deploy.sh"
+    "deploy": "./deploy.sh",
+    "download": "node download.js",
+    "generate": "node generate.js"
   },
   "repository": {
     "type": "git",
