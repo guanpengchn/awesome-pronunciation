@@ -24,6 +24,7 @@ Add new words in `db.json`
 - [Youdao dict](https://dict.youdao.com/)
 - [HowToPronounce](http://www.howtopronounce.cc/)
 - [DJ Phonetic Symbol](https://zh.wikipedia.org/wiki/DJ%E9%9F%B3%E6%A8%99)
+- [chinese-programmer-wrong-pronunciation](https://github.com/shimohq/chinese-programmer-wrong-pronunciation)
 
 ## License
 

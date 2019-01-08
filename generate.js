@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-const DB_NAME = './helper/db.json'
+const DB_NAME = './db.json'
 const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ_'
 const EN = 'en'
 const ZH = 'zh'
@@ -63,16 +63,15 @@ function getRow(word) {
   let url = ''
   for(const index in word.symbol) {
     if(index === '0') {
-      console.log(word.symbol.length)
       if(word.symbol.length === 1) {
-        url = '/audio/' + encodeURIComponent(`${word.word.replace('.','_')}.mp3`)
+        url = '/audio/' + encodeURIComponent(`${word.word.replace('.','dot-')}.mp3`)
       } else {
-        url = '/audio/' + encodeURIComponent(`${word.word.replace('.','_')}_${index}.mp3`)
+        url = '/audio/' + encodeURIComponent(`${word.word.replace('.','dot-')}-${index}.mp3`)
       }
       pron = `<audio :src="$withBase('${url}')" controls="controls" controlslist="nodownload"></audio>`
       symbol = `${word.symbol[index]}`
     } else {
-      url = '/audio/' + encodeURIComponent(`${word.word.replace('.','_')}_${index}.mp3`)
+      url = '/audio/' + encodeURIComponent(`${word.word.replace('.','dot-')}-${index}.mp3`)
       pron += `<br/><audio :src="$withBase('${url}')" controls="controls" controlslist="nodownload"></audio>`
       symbol += `<br/>${word.symbol[index]}`
     }

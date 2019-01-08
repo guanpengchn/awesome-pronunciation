@@ -2,7 +2,7 @@ const fs = require('fs')
 const http = require('http')
 const https = require('https')
 
-const DB_NAME = './helper/db.json'
+const DB_NAME = './db.json'
 const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ_'
 const HTTP = 'http://'
 const HTTPS = 'https://'
@@ -27,20 +27,22 @@ function downloadLetter(wordList) {
     for(const index in j.origin) {
       let filepath = ''
       if(j.origin.length === 1) {
-        filepath = `./docs/.vuepress/public/audio/${j.word.replace('.','_')}.mp3`
+        filepath = `./docs/.vuepress/public/audio/${j.word.replace('.','dot-')}.mp3`
       } else {
-        filepath = `./docs/.vuepress/public/audio/${j.word.replace('.','_')}_${index}.mp3`
+        filepath = `./docs/.vuepress/public/audio/${j.word.replace('.','dot-')}-${index}.mp3`
       }
       
       if(!isFileExist(filepath)) {
         const file = fs.createWriteStream(filepath)
         if(j.origin[index].includes(HTTP)) {
           http.get(j.origin[index], function(response) {
-            response.pipe(file);
+            response.pipe(file)
+            console.log(filepath + ' has downloaded!')
           })
         } else if(j.origin[index].includes(HTTPS)){
           https.get(j.origin[index], function(response) {
-            response.pipe(file);
+            response.pipe(file)
+            console.log(filepath + ' has downloaded!')
           })
         }
       }

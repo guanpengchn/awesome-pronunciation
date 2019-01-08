@@ -2,7 +2,7 @@
 home: true
 # heroImage: /home.png
 heroText: Awesome Pronunciation
-tagline: How to say it?
+tagline: How to pronunce it?
 actionText: Get Started →
 actionLink: /content/
 features:

@@ -7,9 +7,9 @@
     "doc": "docs"
   },
   "scripts": {
-    "dev": "vuepress dev docs",
+    "dev": "node download.js && node generate.js && vuepress dev docs",
     "build": "vuepress build docs",
-    "deploy": "./deploy.sh",
+    "deploy": "node download.js && node generate.js && ./deploy.sh",
     "download": "node download.js",
     "generate": "node generate.js"
   },

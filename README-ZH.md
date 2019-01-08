@@ -22,6 +22,7 @@ English | [简体中文](./README-ZH.md)
 - [有道词典](https://dict.youdao.com/)
 - [HowToPronounce](http://www.howtopronounce.cc/)
 - [DJ音标](https://zh.wikipedia.org/wiki/DJ%E9%9F%B3%E6%A8%99)
+- [chinese-programmer-wrong-pronunciation](https://github.com/shimohq/chinese-programmer-wrong-pronunciation)
 
 ## 开源协议
 

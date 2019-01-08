@@ -8,8 +8,8 @@
 | scala | <audio :src="$withBase('/audio/scala.mp3')" controls="controls" controlslist="nodownload"></audio> | [ˈskɑːlə] |
 | scheme | <audio :src="$withBase('/audio/scheme.mp3')" controls="controls" controlslist="nodownload"></audio> | [skiːm] |
 | SHA | <audio :src="$withBase('/audio/SHA.mp3')" controls="controls" controlslist="nodownload"></audio> | [,ɛs etʃ 'e] |
-| SQL | <audio :src="$withBase('/audio/SQL_0.mp3')" controls="controls" controlslist="nodownload"></audio><br/><audio :src="$withBase('/audio/SQL_1.mp3')" controls="controls" controlslist="nodownload"></audio> | [ˈsiːkwəl]<br/>[ˈes ˈkjuː ˈel] |
-| sudo | <audio :src="$withBase('/audio/sudo_0.mp3')" controls="controls" controlslist="nodownload"></audio><br/><audio :src="$withBase('/audio/sudo_1.mp3')" controls="controls" controlslist="nodownload"></audio> | [ˈsuːduː]<br/>[ˈsuːdoʊ] |
+| SQL | <audio :src="$withBase('/audio/SQL-0.mp3')" controls="controls" controlslist="nodownload"></audio><br/><audio :src="$withBase('/audio/SQL-1.mp3')" controls="controls" controlslist="nodownload"></audio> | [ˈsiːkwəl]<br/>[ˈes ˈkjuː ˈel] |
+| sudo | <audio :src="$withBase('/audio/sudo-0.mp3')" controls="controls" controlslist="nodownload"></audio><br/><audio :src="$withBase('/audio/sudo-1.mp3')" controls="controls" controlslist="nodownload"></audio> | [ˈsuːduː]<br/>[ˈsuːdoʊ] |
 | suite | <audio :src="$withBase('/audio/suite.mp3')" controls="controls" controlslist="nodownload"></audio> | [swiːt] |
 
 ## Reference
