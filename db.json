@@ -30,6 +30,16 @@
     "symbol": ["['æŋgjʊlə]"],
     "reference": ""
   }, {
+    "word": "AirBnB",
+    "origin": ["http://www.howtopronounce.cc/file/3cc3d225bc7a433bb92d27fcc66df957.mp3"],
+    "symbol": ["[eə bi: en bi:]"],
+    "reference": ""
+  }, {
+    "word": "Akka",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=Akka&type=2"],
+    "symbol": ["[ˈʌkɑː]"],
+    "reference": ""
+  }, {
     "word": "AJAX",
     "origin": ["https://dict.youdao.com/dictvoice?audio=AJAX&type=2"],
     "symbol": ["['eidʒæks]"],
@@ -42,7 +52,7 @@
   }, {
     "word": "android",
     "origin": ["https://dict.youdao.com/dictvoice?audio=android&type=2"],
-    "symbol": ["['ændrɔid]"],
+    "symbol": ["['ændrɒid]"],
     "reference": ""
   }, {
     "word": "Apache",
@@ -75,6 +85,11 @@
     "symbol": ["['æspekt]"],
     "reference": ""
   }, {
+    "word": "ASUS",
+    "origin": ["http://www.howtopronounce.cc/file/ec54376e7267470ea8d5f6dc4e6fae44.mp3"],
+    "symbol": ["[eɪ'su:s]"],
+    "reference": ""
+  }, {
     "word": "avatar",
     "origin": ["https://dict.youdao.com/dictvoice?audio=avatar&type=1"],
     "symbol": ["['ævətɑː]"],
@@ -103,6 +118,11 @@
     "symbol": ["[baɪnd]"],
     "reference": ""
   }, {
+    "word": "BIOS",
+    "origin": ["http://www.howtopronounce.cc/file/4ca37e472d8d4d53bae07ad37d44dfa2.mp3"],
+    "symbol": ["[ˈbaiɒs]"],
+    "reference": ""
+  }, {
     "word": "bug",
     "origin": ["https://dict.youdao.com/dictvoice?audio=bug&type=1"],
     "symbol": ["[bʌg]"],
@@ -113,12 +133,22 @@
   "C": [{
     "word": "C#",
     "origin": ["http://www.howtopronounce.cc/file/20591cdac0664b828018e09f47611bea.mp3"],
-    "symbol": ["C sharp"],
+    "symbol": ["C sharp [si ʃɑ:p]"],
     "reference": ""
   }, {
     "word": "cache",
     "origin": ["https://dict.youdao.com/dictvoice?audio=cache&type=1"],
     "symbol": ["[kæʃ]"],
+    "reference": ""
+  }, {
+    "word": "CentOS",
+    "origin": ["http://www.howtopronounce.cc/file/cb4e8e126c504df4b1655dbf1832c6ea.mp3"],
+    "symbol": ["[sent 'əʊ 'es]"],
+    "reference": ""
+  }, {
+    "word": "Ceph",
+    "origin": ["http://www.howtopronounce.cc/file/ed0f4dc328ea4ce49ce3c2de545948f9.mp3"],
+    "symbol": ["['sef]"],
     "reference": ""
   }, {
     "word": "character",
@@ -157,6 +187,11 @@
     "word": "Debian",
     "origin": ["https://dict.youdao.com/dictvoice?audio=Debian&type=1"],
     "symbol": ["['diːbɪn]"],
+    "reference": ""
+  }, {
+    "word": "DevOps",
+    "origin": ["http://www.howtopronounce.cc/file/935441c922204945a519fcb61a907785.mp3"],
+    "symbol": ["[dev'ɒps]"],
     "reference": ""
   }, {
     "word": "deny",
@@ -226,8 +261,13 @@
   }, {
     "word": "FIFO",
     "origin": ["https://s3.amazonaws.com/audio.oxforddictionaries.com/en/mp3/fifo_1_gb_1_abbr.mp3"],
-    "symbol": ["['faifəu]"],
+    "symbol": ["['faɪfəʊ]"],
     "reference": "[How is the acronym FIFO pronounced?](https://www.quora.com/How-is-the-acronym-FIFO-pronounced)"
+  }, {
+    "word": "FILO",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=FILO&type=1"],
+    "symbol": ["['failəu]"],
+    "reference": ""
   }, {
     "word": "format",
     "origin": ["https://dict.youdao.com/dictvoice?audio=format&type=1"],
@@ -242,10 +282,37 @@
     "symbol": ["[ɡɪt]"],
     "reference": ""
   }, {
+    "word": "GIF",
+    "origin": [
+      "http://www.howtopronounce.cc/file/477c8230f14746f0b75db58daf43cc07.mp3",
+      "http://www.howtopronounce.cc/file/abadb1434ccb40b99c01bc85a27edf3e.mp3"
+    ],
+    "symbol": [
+      "[ɡɪf]",
+      "[dʒɪf]"
+    ],
+    "reference": ""
+  }, {
+    "word": "GNOME",
+    "origin": [
+      "http://www.howtopronounce.cc/file/5c51db051bb3472586d067e2f40036af.mp3",
+      "http://www.howtopronounce.cc/file/247ae70095444dd4b66a403472e9b507.mp3"
+    ],
+    "symbol": [
+      "['nəʊm]",
+      "[ɡ'nəʊm]"
+    ],
+    "reference": ""
+  }, {
     "word": "GNU",
     "origin": ["http://www.howtopronounce.cc/file/118cec210b284899988aa018fb673211.mp3"],
     "symbol": ["[gnu:]"],
     "reference": "[wikipedia GNU](https://en.wikipedia.org/wiki/GNU)"
+  }, {
+    "word": "Google",
+    "origin": ["http://www.howtopronounce.cc/file/83d17c9316ff4f6fa4a96205a7ecdf9f.mp3"],
+    "symbol": ["['ɡuɡl]"],
+    "reference": ""
   }, {
     "word": "GUI",
     "origin": ["https://dict.youdao.com/dictvoice?audio=GUI&type=1"],
@@ -288,9 +355,24 @@
 
 
   "I": [{
+    "word": "IaaS",
+    "origin": ["http://www.howtopronounce.cc/file/ffa48ceac4bc472fb8834f324b671f40.mp3"],
+    "symbol": ["[aɪs]"],
+    "reference": ""
+  }, {
     "word": "icon",
     "origin": ["https://dict.youdao.com/dictvoice?audio=icon&type=1"],
     "symbol": ["['aɪkɑn]"],
+    "reference": ""
+  }, {
+    "word": "IEEE",
+    "origin": ["http://www.howtopronounce.cc/file/17d86fd1bcac4badaa9bbf5751465373.mp3"],
+    "symbol": ["[aɪ trɪpl i:]"],
+    "reference": ""
+  }, {
+    "word": "IntelliJ",
+    "origin": ["http://www.howtopronounce.cc/file/5bebfeaf2d9b4bfb95ed2a0399516ce5.mp3"],
+    "symbol": ["[ɪntelɪ dʒeɪ]"],
     "reference": ""
   }, {
     "word": "image",
@@ -326,6 +408,11 @@
     "symbol": ["['dʒɑːvə]"],
     "reference": ""
   }, {
+    "word": "Jenkins",
+    "origin": ["http://www.howtopronounce.cc/file/8e73dfff629d4d87a50c6a70e7fe5c73.mp3"],
+    "symbol": ["['dʒeŋkinz]"],
+    "reference": ""
+  }, {
     "word": "Jekyll",
     "origin": ["https://dict.youdao.com/dictvoice?audio=Jekyll&type=1"],
     "symbol": ["['dʒekil; 'dʒi:kil]"],
@@ -340,6 +427,17 @@
     "origin": ["https://dict.youdao.com/dictvoice?audio=jpeg&type=1"],
     "symbol": ["['dʒeɪpeɡ]"],
     "reference": ""
+  }, {
+    "word": "JSON",
+    "origin": [
+      "http://www.howtopronounce.cc/file/f91b14383e904e2cb29cb0c8ae27bbf4.mp3",
+      "http://www.howtopronounce.cc/file/6f5f43447d63458eaebe2fc1ee3cd56f.mp3"
+    ],
+    "symbol": [
+      "[ˈdʒeɪsən]",
+      "[ˈdʒeɪsɑn]"
+    ],
+    "reference": "[How-do-you-pronounce-JSON](https://www.quora.com/How-do-you-pronounce-JSON)"
   }],
 
 
@@ -398,6 +496,11 @@
     "origin": ["https://dict.youdao.com/dictvoice?audio=locale&type=2"],
     "symbol": ["[ləʊ'kɑːl]"],
     "reference": ""
+  }, {
+    "word": "Lucene",
+    "origin": ["http://www.howtopronounce.cc/file/459c115769eb4c2f8e409ca3191a736c.mp3"],
+    "symbol": ["[ˈlu:sɪn]"],
+    "reference": ""
   }],
 
 
@@ -412,6 +515,11 @@
     "symbol": ["['mɑːdʒɪn]"],
     "reference": ""
   }, {
+    "word": "MariaDB",
+    "origin": ["http://www.howtopronounce.cc/file/67692e355e5b4f4f8328e9ee850961dc.mp3"],
+    "symbol": ["['mɛərɪr diː bi:]"],
+    "reference": ""
+  }, {
     "word": "matrix",
     "origin": ["https://dict.youdao.com/dictvoice?audio=matrix&type=1"],
     "symbol": ["[ˈmeɪtrɪks]"],
@@ -424,12 +532,28 @@
   }, {
     "word": "Microsoft",
     "origin": ["https://dict.youdao.com/dictvoice?audio=Microsoft&type=1"],
-    "symbol": ["['maikrəusɔft]"],
+    "symbol": ["['maikrəusɒft]"],
     "reference": ""
   }, {
     "word": "module",
     "origin": ["https://dict.youdao.com/dictvoice?audio=module&type=1"],
     "symbol": ["['mɒdjuːl]"],
+    "reference": ""
+  }, {
+    "word": "MyBatis",
+    "origin": ["http://www.howtopronounce.cc/file/2cd33d281a9c4835855b6866fa5f9bc5.mp3"],
+    "symbol": ["[maɪ'baɪtɪs]"],
+    "reference": ""
+  }, {
+    "word": "MySQL",
+    "origin": [
+      "http://www.howtopronounce.cc/file/603c96fbb2c54aaa966c30b0851b83c4.mp3",
+      "http://www.howtopronounce.cc/file/9ffaf853afb147e8afbe4b5fe2dd8737.mp3"
+    ],
+    "symbol": [
+      "[maɪ ˈsiːkwəl]",
+      "[maɪ ˈes ˈkjuː ˈel]"
+    ],
     "reference": ""
   }],
 
@@ -450,14 +574,24 @@
     "symbol": ["[nʌl]"],
     "reference": ""
   }, {
+    "word": "Numpy",
+    "origin": ["http://www.howtopronounce.cc/file/ceadc221e2b54b43a413f2c55a7ca04f.mp3"],
+    "symbol": ["[nʌm'paɪ]"],
+    "reference": ""
+  }, {
     "word": "NVIDIA",
     "origin": ["https://dict.youdao.com/dictvoice?audio=NVIDIA&type=1"],
-    "symbol": ["[ɛn'vɪdɪr]"],
+    "symbol": ["[en'vɪdɪr]"],
     "reference": ""
   }],
 
 
   "O": [{
+    "word": "OAuth",
+    "origin": ["http://www.howtopronounce.cc/file/6c03a257c5e74dfe9bd22e5d01b59c37.mp3"],
+    "symbol": ["[əʊ 'ɔθ]"],
+    "reference": ""
+  }, {
     "word": "OS X",
     "origin": [""],
     "symbol": ["OS ten ['o 'ɛs ten]"],
@@ -465,7 +599,7 @@
   }, {
     "word": "origin",
     "origin": ["https://dict.youdao.com/dictvoice?audio=origin&type=1"],
-    "symbol": ["[ˈɔridʒin]"],
+    "symbol": ["[ˈɒridʒin]"],
     "reference": ""
   }],
 
@@ -488,12 +622,12 @@
   }, {
     "word": "putty",
     "origin": ["https://dict.youdao.com/dictvoice?audio=putty&type=1"],
-    "symbol": ["[ˈpʌti]"],
+    "symbol": ["[ˈpʌtɪ]"],
     "reference": ""
   }, {
     "word": "query",
     "origin": ["https://dict.youdao.com/dictvoice?audio=query&type=1"],
-    "symbol": ["['kwɪəri]"],
+    "symbol": ["['kwɪərɪ]"],
     "reference": ""
   }, {
     "word": "python",
@@ -517,9 +651,14 @@
     "symbol": ["[relm]"],
     "reference": ""
   }, {
+    "word": "Redis",
+    "origin": ["http://www.howtopronounce.cc/file/ba91df935e0444c8b844926ecb91bb77.mp3"],
+    "symbol": ["[re'dɪs]"],
+    "reference": ""
+  }, {
     "word": "replicas",
     "origin": ["https://dict.youdao.com/dictvoice?audio=replicas&type=1"],
-    "symbol": ["[ˈrɛplɪkə]"],
+    "symbol": ["[ˈreplɪkə]"],
     "reference": ""
   }, {
     "word": "resolved",
@@ -534,7 +673,12 @@
   }, {
     "word": "retina",
     "origin": ["https://dict.youdao.com/dictvoice?audio=retina&type=1"],
-    "symbol": ["['retɪnə"],
+    "symbol": ["['retɪnə]"],
+    "reference": ""
+  }, {
+    "word": "RFID",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=RFID&type=1"],
+    "symbol": ["[ɑː ef aɪ diː]"],
     "reference": ""
   }, {
     "word": "Ribbon",
@@ -545,9 +689,14 @@
 
 
   "S": [{
+    "word": "Samsung",
+    "origin": ["http://www.howtopronounce.cc/file/e47ab1863e8c49419226b85116cfe959.mp3"],
+    "symbol": ["['sæmsɔ:ŋ]"],
+    "reference": ""
+  }, {
     "word": "san jose",
     "origin": ["https://dict.youdao.com/dictvoice?audio=san%20jose&type=1"],
-    "symbol": ["[sænhəu'zei]"],
+    "symbol": ["[sænhəu'zeɪ]"],
     "reference": ""
   }, {
     "word": "Safari",
@@ -560,6 +709,11 @@
     "symbol": ["[ˈskɑːlə]"],
     "reference": ""
   }, {
+    "word": "scikit-learn",
+    "origin": ["http://www.howtopronounce.cc/file/f561ff2bf3e6456b9d53a738c2821403.mp3"],
+    "symbol": ["['saɪkɪt lɜːn]"],
+    "reference": ""
+  }, {
     "word": "scheme",
     "origin": ["https://dict.youdao.com/dictvoice?audio=scheme&type=1"],
     "symbol": ["[skiːm]"],
@@ -567,7 +721,7 @@
   }, {
     "word": "SHA",
     "origin": ["https://dict.youdao.com/dictvoice?audio=SHA&type=1"],
-    "symbol": ["[,ɛs etʃ 'e]"],
+    "symbol": ["[,es etʃ 'e]"],
     "reference": ""
   }, {
     "word": "SQL",
@@ -623,7 +777,12 @@
   "V": [{
     "word": "variable",
     "origin": ["https://dict.youdao.com/dictvoice?audio=variable&type=1"],
-    "symbol": ["['veəriəbl]"],
+    "symbol": ["['veərɪəbl]"],
+    "reference": ""
+  }, {
+    "word": "Vim",
+    "origin": ["http://www.howtopronounce.cc/file/1e7a00530ee44355af82baf9a3ec36bd.mp3"],
+    "symbol": ["[vɪm]"],
     "reference": ""
   }, {
     "word": "vue",
@@ -646,7 +805,12 @@
   }],
 
 
-  "X": [],
+  "X": [{
+    "word": "XML",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=XML&type=1"],
+    "symbol": ["[eks em el]"],
+    "reference": ""
+  }],
 
 
   "Y": [{
@@ -663,6 +827,11 @@
 
 
   "Z": [{
+    "word": "Zabbix",
+    "origin": ["http://www.howtopronounce.cc/file/28d7f64b9f424603bd1452f8c09c2598.mp3"],
+    "symbol": ["['zæbɪks]"],
+    "reference": ""
+  }, {
     "word": "Zuul",
     "origin": ["https://dict.youdao.com/dictvoice?audio=Zuul&type=1"],
     "symbol": ["['zaʊl]"],

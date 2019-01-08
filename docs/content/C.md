@@ -3,8 +3,10 @@
 
 | Word  | Pronunciation | Symbol |
 | :-- | :-- | :-- |
-| C# | <audio :src="$withBase('/audio/C%23.mp3')" controls="controls" controlslist="nodownload"></audio> | C sharp |
+| C# | <audio :src="$withBase('/audio/C%23.mp3')" controls="controls" controlslist="nodownload"></audio> | C sharp [si ʃɑ:p] |
 | cache | <audio :src="$withBase('/audio/cache.mp3')" controls="controls" controlslist="nodownload"></audio> | [kæʃ] |
+| CentOS | <audio :src="$withBase('/audio/CentOS.mp3')" controls="controls" controlslist="nodownload"></audio> | [sent 'əʊ 'es] |
+| Ceph | <audio :src="$withBase('/audio/Ceph.mp3')" controls="controls" controlslist="nodownload"></audio> | ['sef] |
 | character | <audio :src="$withBase('/audio/character.mp3')" controls="controls" controlslist="nodownload"></audio> | ['kærəktə] |
 | char | <audio :src="$withBase('/audio/char.mp3')" controls="controls" controlslist="nodownload"></audio> | [tʃɑː] |
 | console | <audio :src="$withBase('/audio/console.mp3')" controls="controls" controlslist="nodownload"></audio> | [kən'səʊl] |
