@@ -151,11 +151,6 @@
     "symbol": ["['sef]"],
     "reference": ""
   }, {
-    "word": "character",
-    "origin": ["https://dict.youdao.com/dictvoice?audio=character&type=1"],
-    "symbol": ["['kærəktə]"],
-    "reference": "[How to pronounce the programmer's abbreviation “char”](https://english.stackexchange.com/questions/60154/how-to-pronounce-the-programmers-abbreviation-char)"
-  }, {
     "word": "char",
     "origin": ["https://dict.youdao.com/dictvoice?audio=char&type=1"],
     "symbol": ["[tʃɑː]"],
@@ -194,19 +189,9 @@
     "symbol": ["[dev'ɒps]"],
     "reference": ""
   }, {
-    "word": "deny",
-    "origin": ["https://dict.youdao.com/dictvoice?audio=deny&type=1"],
-    "symbol": ["[dɪ'naɪ]"],
-    "reference": ""
-  }, {
     "word": "deque",
     "origin": ["https://dict.youdao.com/dictvoice?audio=deque&type=1"],
     "symbol": ["['dek]"],
-    "reference": ""
-  }, {
-    "word": "digest",
-    "origin": ["https://dict.youdao.com/dictvoice?audio=digest&type=1"],
-    "symbol": ["[dɑɪ'dʒɛst]"],
     "reference": ""
   }, {
     "word": "Django",
@@ -605,11 +590,6 @@
     "symbol": ["[pi: tuː pi:]"],
     "reference": ""
   }, {
-    "word": "phantom",
-    "origin": ["https://dict.youdao.com/dictvoice?audio=phantom&type=2"],
-    "symbol": ["['fæntəm]"],
-    "reference": ""
-  }, {
     "word": "parameter",
     "origin": ["https://dict.youdao.com/dictvoice?audio=parameter&type=1"],
     "symbol": ["[pə'ræmɪtə]"],
@@ -659,11 +639,6 @@
     "word": "resolved",
     "origin": ["https://dict.youdao.com/dictvoice?audio=resolved&type=1"],
     "symbol": ["[rɪ'zɒlvd]"],
-    "reference": ""
-  }, {
-    "word": "resort",
-    "origin": ["https://dict.youdao.com/dictvoice?audio=resort&type=1"],
-    "symbol": ["[rɪˈzɔ:t]"],
     "reference": ""
   }, {
     "word": "retina",
