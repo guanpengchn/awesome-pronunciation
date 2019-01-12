@@ -5,7 +5,11 @@
 [awesome-pronunciation](https://guanpengchn.github.io/awesome-pronunciation/)是一个明确计算机词汇发音的仓库，希望借此促进开发者之间的交流,
 请点击此处[预览](https://guanpengchn.github.io/awesome-pronunciation/) 。
 
-## 如何贡献新单词
+## 为什么不来做个小测试？
+
+这里有个[小测试](https://guanpengchn.github.io/pronunciation-survey/?lang=zh)的链接。它能帮助你迅速的发现有哪些编程词汇是你易读错的，与此同时，你也可以为项目中计算单词的错误率做出贡献。
+
+## 如何添加新单词？
 
 1. Issues中添加Feature request
 2. 在本项目中编辑`db.json`，修改好后点击`Propose file change`，点击发送`Pull Request`
