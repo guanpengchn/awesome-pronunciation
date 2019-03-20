@@ -181,8 +181,8 @@
   }, {
     "word": "Debian",
     "origin": ["https://dict.youdao.com/dictvoice?audio=Debian&type=1"],
-    "symbol": ["['diːbɪn]"],
-    "reference": ""
+    "symbol": ["['debɪən]"],
+    "reference": "https://www.debian.org/intro/about"
   }, {
     "word": "DevOps",
     "origin": ["http://www.howtopronounce.cc/file/935441c922204945a519fcb61a907785.mp3"],
@@ -689,9 +689,19 @@
     "symbol": ["[skiːm]"],
     "reference": ""
   }, {
+    "word": "script",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=script&type=1"],
+    "symbol": ["[skrɪpt]"],
+    "reference": ""
+  }, {
     "word": "SHA",
     "origin": ["https://dict.youdao.com/dictvoice?audio=SHA&type=1"],
     "symbol": ["[,es etʃ 'e]"],
+    "reference": ""
+  }, {
+    "word": "shell",
+    "origin": ["https://dict.youdao.com/dictvoice?audio=shell&type=1"],
+    "symbol": ["[ʃɛl]"],
     "reference": ""
   }, {
     "word": "SQL",
